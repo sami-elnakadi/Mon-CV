@@ -9,7 +9,7 @@ body{
 }
 
 main{
-    margin: 0 30% 0 30%;
+    
 }
 
 header{
@@ -50,14 +50,15 @@ h2{
     grid-template-columns: repeat(3, 33%);
 }
 img{
-    width: 100px;
-    height: auto;
+    width: auto;
+    height: 150px;
+    margin-left: 50px;
 }
 
 .style{
     border: 1px solid black;
     border-radius: 10px;
     margin-bottom: 20px;
-    color: white;   
+    color: #E6E2AF;   
     background-color: #046380;
 }
