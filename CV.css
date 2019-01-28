@@ -12,6 +12,10 @@ main{
     margin: 0 30% 0 30%;
 }
 
+header{
+    margin-left:150px;
+}
+
 .header{
     display: grid;
     grid-template-columns: repeat(3, 33%);
