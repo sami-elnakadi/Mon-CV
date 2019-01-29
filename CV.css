@@ -5,25 +5,22 @@ body{
     background-color: #002F2F;
     color: #EFECCA;
     font-family: 'Courier New', Courier, monospace;
-
-}
-
-main{
-    
 }
 
 header{
     margin-left:150px;
+    height: 50px;
 }
-
 .header{
     display: grid;
     grid-template-columns: repeat(3, 33%);
 }
+
 .pp{
     width: 40%;
     height: auto;
 }
+
 h2{
    
     padding: 20px;
@@ -32,15 +29,18 @@ h2{
     display: grid;
     grid-template-columns: repeat(4, 25%);
 }
-.pro{
 
-}
 .langue{
     display: grid;
     grid-template-columns: repeat(3, 33%);
 }
 
 .info{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+}
+
+.pro{
     display: grid;
     grid-template-columns: repeat(3, 33%);
 }
@@ -52,7 +52,13 @@ h2{
 img{
     width: auto;
     height: 150px;
-    margin-left: 50px;
+    margin-left: 100px;
+}
+
+.forma{
+    width: auto;
+    height: 150px;
+    margin-right: 50px;
 }
 
 .style{
